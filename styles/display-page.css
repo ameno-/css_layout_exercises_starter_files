@@ -1,0 +1,53 @@
+
+main {
+  font-size: 0;
+}
+
+.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.boxes {
+	border: 1px solid black;
+}
+
+.upper {
+  height: 200px;
+  width: 50%;
+  display: inline-block;
+  font-size: 0;
+}
+
+.upper-1 {
+	background-color: green;
+}
+
+.upper-2 {
+	background-color: blue;
+	border-left: none;
+}
+
+.lower {
+  height: 300px;
+  width: 33.33%;
+  display: inline-block;
+  font-size: 0;
+  border-top: none;
+}	
+
+
+.lower-1 {
+	background-color: gray;
+}
+
+.lower-2 {
+	background-color: black;
+	border-left: none;
+}
+
+.lower-3 {
+	background-color: orange;
+	border-left: none;
+}
