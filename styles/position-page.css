@@ -1,1 +1,38 @@
+nav {
+	background-color: gray;
+	position: fixed;
+	width: 100%;
+}
 
+nav ul {
+	width: 80%;
+	display: inline;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	text-align: right;
+}
+
+nav li::after {
+	content: ' | ';
+}
+
+.logo {
+	border-radius: 100%;
+	border: 1px solid black;
+	margin-left: 60px;
+	margin-right: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 10%;
+	display: inline-block;
+
+
+}
+.cover {
+	background: url('../images/outerspace_landscape.jpeg') no-repeat center center;
+  	background-size: cover;
+ 	height: 100vh; 
+ }
