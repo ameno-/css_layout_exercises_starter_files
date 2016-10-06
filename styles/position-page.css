@@ -7,7 +7,7 @@ nav {
 nav ul {
 	width: 80%;
 	display: inline;
-	text-align: center;
+
 }
 
 nav li {
@@ -17,6 +17,10 @@ nav li {
 
 nav li::after {
 	content: ' | ';
+}
+
+nav a {
+	vertical-align: text-top;
 }
 
 .logo {
